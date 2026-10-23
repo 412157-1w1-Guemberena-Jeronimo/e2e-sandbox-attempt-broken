@@ -7,7 +7,7 @@ public class Main {
     public static int sumaPares(int[] valores) {
         int total = 0;
         for (int valor : valores) {
-            if (valor % 2 == 0) {
+            if (valor % 4 == 0) {
                 total += valor;
             }
         }
